@@ -1,5 +1,6 @@
 import { MenuEntry } from '@pancakeswap-libs/uikit'
 import { MenuItem } from 'components/SearchModal/styleds'
+import { ExternalLink } from 'components/Shared'
 
 const config: MenuEntry[] = [
   {
@@ -28,13 +29,12 @@ const config: MenuEntry[] = [
     icon: 'FarmIcon',
     href: 'https://www.skullswap.cf/airdrop.html',
     // type: DropdownMenuItemType.EXTERNAL_LINK
-    type: MenuItem.EXTERNAL_LINK
+    type: ExternalLink
   },
   {
     label: 'Presale',
     icon: 'PoolIcon',
-    href: 'https://www.skullswap.cf/presale.html',
-    type: MenuItem.EXTERNAL_LINK
+    href: 'https://www.skullswap.cf/presale.html'
   },
 
   // {
