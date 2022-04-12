@@ -119,12 +119,12 @@ export default config
 export const socials = [
   {
     label: "Twitter",
-    icon: TwitterIcon,
+    // icon: TwitterIcon,
     href: "https://twitter.com/pancakeswap",
   },
   {
     label: "Telegram",
-    icon: TelegramIcon,
+    // icon: TelegramIcon,
     items: [
       {
         label: "English",
@@ -138,7 +138,7 @@ export const socials = [
   },
   {
     label: "Github",
-    icon: GithubIcon,
+    // icon: GithubIcon,
     href: "https://github.com/pancakeswap/",
   },
 ];
