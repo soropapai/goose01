@@ -10,7 +10,6 @@ import Providers from './Providers'
 import 'inter-ui'
 import './i18n'
 import App from './pages/App'
-// import Swap from './pages/Swap'
 
 if ('ethereum' in window) {
   (window.ethereum as any).autoRefreshOnNetworkChange = false
@@ -32,7 +31,6 @@ ReactDOM.render(
       <ResetCSS />
       <GlobalStyle />
       <App />
-      {/* <Swap /> */}
     </Providers>
   </StrictMode>,
   document.getElementById('root')

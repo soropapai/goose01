@@ -36,6 +36,8 @@ const config: MenuEntry[] = [
     href: 'https://www.skullswap.cf/presale.html'
   },
 
+
+
   // {
   //   label: 'Farms',
   //   icon: 'FarmIcon',
@@ -113,3 +115,30 @@ const config: MenuEntry[] = [
 ]
 
 export default config
+
+export const socials = [
+  {
+    label: "Twitter",
+    icon: TwitterIcon,
+    href: "https://twitter.com/pancakeswap",
+  },
+  {
+    label: "Telegram",
+    icon: TelegramIcon,
+    items: [
+      {
+        label: "English",
+        href: "https://t.me/pancakeswap",
+      },
+      {
+        label: "Announcements",
+        href: "https://t.me/PancakeSwapAnn",
+      },
+    ],
+  },
+  {
+    label: "Github",
+    icon: GithubIcon,
+    href: "https://github.com/pancakeswap/",
+  },
+];
