@@ -9,8 +9,8 @@ import TransactionUpdater from './state/transactions/updater'
 import Providers from './Providers'
 import 'inter-ui'
 import './i18n'
-// import App from './pages/App'
-import Swap from './pages/Swap'
+import App from './pages/App'
+// import Swap from './pages/Swap'
 
 if ('ethereum' in window) {
   (window.ethereum as any).autoRefreshOnNetworkChange = false
@@ -31,8 +31,8 @@ ReactDOM.render(
       </>
       <ResetCSS />
       <GlobalStyle />
-      {/* <App /> */}
-      <Swap />
+      <App />
+      {/* <Swap /> */}
     </Providers>
   </StrictMode>,
   document.getElementById('root')
