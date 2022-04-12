@@ -27,9 +27,8 @@ const config: MenuEntry[] = [
   {
     label: 'Airdrop',
     icon: 'FarmIcon',
-    href: 'https://www.skullswap.cf/airdrop.html',
+    href: 'https://www.skullswap.cf/airdrop.html'
     // type: DropdownMenuItemType.EXTERNAL_LINK
-    type: ExternalLink
   },
   {
     label: 'Presale',
