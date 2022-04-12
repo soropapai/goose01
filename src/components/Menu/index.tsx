@@ -16,7 +16,7 @@ const Menu: React.FC = props => {
 
   return (
     <UikitMenu
-      links={links}
+      // links={links}
       priceLink="https://www.coingecko.com/en/coins/goose-finance"
       account={account as string}
       login={(connectorId: ConnectorId) => {
