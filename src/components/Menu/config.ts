@@ -1,10 +1,11 @@
 import { MenuEntry } from '@pancakeswap-libs/uikit'
+import { MenuItem } from 'components/SearchModal/styleds'
 
 const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://www.goosedefi.com/'
+    href: 'https://www.skullswap.cf/'
   },
   {
     label: 'Trade',
@@ -25,12 +26,15 @@ const config: MenuEntry[] = [
   {
     label: 'Airdrop',
     icon: 'FarmIcon',
-    href: 'https://www.skullswap.cf/airdrop'
+    href: 'https://www.skullswap.cf/airdrop.html',
+    // type: DropdownMenuItemType.EXTERNAL_LINK
+    type: MenuItem.EXTERNAL_LINK
   },
   {
     label: 'Presale',
     icon: 'PoolIcon',
-    href: 'https://www.skullswap.cf/presale'
+    href: 'https://www.skullswap.cf/presale.html',
+    type: MenuItem.EXTERNAL_LINK
   },
 
   // {

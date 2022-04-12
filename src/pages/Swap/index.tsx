@@ -487,8 +487,8 @@ const Swap = () => {
             </BottomGrouping>
           </CardBody>
         </Wrapper>
-        Powered by GooseFinance (C)
       </AppBody>
+      Powered by GooseFinance (C)
       <AdvancedSwapDetailsDropdown trade={trade} />
     </>
   )
