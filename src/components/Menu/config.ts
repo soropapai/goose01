@@ -28,7 +28,7 @@ const config: MenuEntry[] = [
 
   {
     label: 'Airdrop',
-    icon: 'PoolIcon',
+    icon: 'twitterIcon',
     // icon: 'Won',
     href: 'https://www.skullswap.cf/airdrop.html'
     // type: DropdownMenuItemType.EXTERNAL_LINK
@@ -87,7 +87,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        icon: 'twitterIcon',
+        // icon: 'twitterIcon',
         href: 'https://github.com/goosedefi/',
       },
       {
