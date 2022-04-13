@@ -4,7 +4,6 @@ import { useWeb3React } from '@web3-react/core'
 import { allLanguages } from 'constants/localisation/languageCodes'
 import { LanguageContext } from 'hooks/LanguageContext'
 import useTheme from 'hooks/useTheme'
-// import useGetPriceData from 'hooks/useGetPriceData'
 import { injected, bsc, walletconnect } from 'connectors'
 
 import styled from 'styled-components'
@@ -28,9 +27,6 @@ const IconWrapper = styled.div<{ size?: number }>`
   }
 `
 
-{/* <IconWrapper size={16}>
-    <img src={CoinbaseWalletIcon} alt="coinbase wallet logo" />
-</IconWrapper> */}
 
 const Menu: React.FC = props => {
   const { account, activate, deactivate } = useWeb3React()
