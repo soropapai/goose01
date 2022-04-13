@@ -3,6 +3,7 @@ import { MenuItem } from 'components/SearchModal/styleds'
 import { ExternalLink } from 'components/Shared'
 
 // import TwitterIcon from '../../assets/images/twitterIcon.svg'
+import { TwitterIcon as getIcon } from 'index'
 
 
 const config: MenuEntry[] = [

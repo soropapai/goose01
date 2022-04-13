@@ -27,12 +27,19 @@ const IconWrapper = styled.div<{ size?: number }>`
   }
 `
 
+function getIcon() {
+    return (
+      <IconWrapper size={16}>
+        <img src={TwitterIcon} alt="Twitter Icon" />
+      </IconWrapper>
+    )
+}
+
 
 const Menu: React.FC = props => {
   const { account, activate, deactivate } = useWeb3React()
   const { selectedLanguage, setSelectedLanguage } = useContext(LanguageContext)
   const { isDark, toggleTheme } = useTheme()
-  // const cakePriceUsd = useGetPriceData()
 
   return (
 
