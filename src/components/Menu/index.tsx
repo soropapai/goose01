@@ -6,10 +6,11 @@ import { LanguageContext } from 'hooks/LanguageContext'
 import useTheme from 'hooks/useTheme'
 // import useGetPriceData from 'hooks/useGetPriceData'
 import { injected, bsc, walletconnect } from 'connectors'
-import links from './config'
 
 import styled from 'styled-components'
 import TwitterIcon from '../../assets/images/twitterIcon.svg'
+
+import links from './config'
 
 const IconWrapper = styled.div<{ size?: number }>`
   display: flex;
