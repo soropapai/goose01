@@ -26,13 +26,15 @@ const config: MenuEntry[] = [
 
   {
     label: 'Airdrop',
-    icon: 'Won',
+    icon: 'PoolIcon',
+    // icon: 'Won',
     href: 'https://www.skullswap.cf/airdrop.html'
     // type: DropdownMenuItemType.EXTERNAL_LINK
   },
   {
     label: 'Presale',
-    icon: 'Verified',
+    icon: 'TicketIcon',
+    // icon: 'Verified',
     href: 'https://www.skullswap.cf/presale.html'
   },
 
@@ -77,24 +79,24 @@ const config: MenuEntry[] = [
   //   ]
   // },
 
-  // {
-  //   label: 'More',
-  //   icon: 'MoreIcon',
-  //   items: [
-  //     {
-  //       label: "Github",
-  //       href: "https://github.com/goosedefi/",
-  //     },
-  //     {
-  //       label: "Docs",
-  //       href: "https://goosedefi.gitbook.io/goose-finance/",
-  //     },
-  //     {
-  //       label: "Blog",
-  //       href: "https://goosefinance.medium.com/",
-  //     },
-  //   ],
-  // },
+  {
+    label: 'More',
+    icon: 'MoreIcon',
+    items: [
+      {
+        label: "Github",
+        href: "https://github.com/goosedefi/",
+      },
+      {
+        label: "Twitter",
+        href: "https://goosedefi.gitbook.io/goose-finance/",
+      },
+      {
+        label: "Telegram",
+        href: "https://goosefinance.medium.com/",
+      },
+    ],
+  },
 
   // {
   //   label: 'Partnerships/IFO',
@@ -111,22 +113,6 @@ const config: MenuEntry[] = [
     label: 'Audit by CertiK',
     icon: 'AuditIcon',
     href: 'https://certik.org/projects/goose-finance',
-  },
-
-  {
-    label: 'Twitter',
-    icon: 'Community',
-    href: 'https://twitter.com/pancakeswap',
-  },
-  {
-    label: 'Telegram',
-    icon: 'Community',
-    href: 'https://t.me/pancakeswap',
-  },
-  {
-    label: 'Github',
-    icon: 'Info',
-    href: 'https://github.com/pancakeswap/',
   },
 ]
 
