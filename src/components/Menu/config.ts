@@ -2,10 +2,7 @@ import { MenuEntry } from '@pancakeswap-libs/uikit'
 import { MenuItem } from 'components/SearchModal/styleds'
 import { ExternalLink } from 'components/Shared'
 
-// import CoinbaseWalletIcon from '../../assets/images/coinbaseWalletIcon.svg'
-
-import TwitterIcon from 'assets/images/twitterIcon.svg'
-<img src={TwitterIcon} alt="Twitter icon" />
+import TwitterIcon from '../../assets/images/twitterIcon.svg'
 
 
 const config: MenuEntry[] = [
