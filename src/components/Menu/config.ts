@@ -36,7 +36,6 @@ const config: MenuEntry[] = [
   {
     label: 'Presale',
     icon: 'TicketIcon',
-    // icon: 'Verified',
     href: 'https://www.skullswap.cf/presale.html'
   },
 

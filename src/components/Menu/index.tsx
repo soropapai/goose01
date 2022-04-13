@@ -27,6 +27,9 @@ const IconWrapper = styled.div<{ size?: number }>`
   }
 `
 
+{/* <IconWrapper size={16}>
+    <img src={CoinbaseWalletIcon} alt="coinbase wallet logo" />
+</IconWrapper> */}
 
 const Menu: React.FC = props => {
   const { account, activate, deactivate } = useWeb3React()
@@ -35,11 +38,6 @@ const Menu: React.FC = props => {
   // const cakePriceUsd = useGetPriceData()
 
   return (
-
-    <IconWrapper size={16}>
-    <img src={TwitterIcon} alt="Twitter icon" />
-    </IconWrapper>
-    
 
     <UikitMenu
       // enlaces del menu principal
