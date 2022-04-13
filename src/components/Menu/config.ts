@@ -26,13 +26,13 @@ const config: MenuEntry[] = [
 
   {
     label: 'Airdrop',
-    icon: 'FarmIcon',
+    icon: 'Won',
     href: 'https://www.skullswap.cf/airdrop.html'
     // type: DropdownMenuItemType.EXTERNAL_LINK
   },
   {
     label: 'Presale',
-    icon: 'PoolIcon',
+    icon: 'Verified',
     href: 'https://www.skullswap.cf/presale.html'
   },
 
@@ -115,17 +115,17 @@ const config: MenuEntry[] = [
 
   {
     label: 'Twitter',
-    icon: 'AuditIcon',
+    icon: 'Community',
     href: 'https://twitter.com/pancakeswap',
   },
   {
     label: 'Telegram',
-    icon: 'AuditIcon',
+    icon: 'Community',
     href: 'https://t.me/pancakeswap',
   },
   {
     label: 'Github',
-    icon: 'AuditIcon',
+    icon: 'Info',
     href: 'https://github.com/pancakeswap/',
   },
 ]
