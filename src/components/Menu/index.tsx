@@ -16,9 +16,10 @@ const Menu: React.FC = props => {
 
   return (
     <UikitMenu
-      // links={links}
-      links={}
+      // enlaces del menu principal
+      links={links}
       priceLink="https://www.coinmarketcap.com"
+
       account={account as string}
       login={(connectorId: ConnectorId) => {
         if (connectorId === 'walletconnect') {
@@ -32,11 +33,14 @@ const Menu: React.FC = props => {
         return activate(injected)
       }}
       logout={deactivate}
+
       isDark={isDark}
       toggleTheme={toggleTheme}
+
       currentLang={selectedLanguage?.code || ''}
       langs={allLanguages}
       setLang={setSelectedLanguage}
+      
       // cakePriceUsd={cakePriceUsd}
       {...props}
     />
