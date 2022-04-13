@@ -114,21 +114,20 @@ const config: MenuEntry[] = [
   },
 
   {
-    label: "Twitter",
-    // icon: TwitterIcon,
-    href: "https://twitter.com/pancakeswap",
+    label: 'Twitter',
+    icon: 'AuditIcon',
+    href: 'https://twitter.com/pancakeswap',
   },
   {
-    label: "Telegram",
-    // icon: TelegramIcon,
-    href: "https://t.me/pancakeswap",
+    label: 'Telegram',
+    icon: 'AuditIcon',
+    href: 'https://t.me/pancakeswap',
   },
   {
-    label: "Github",
-    // icon: GithubIcon,
-    href: "https://github.com/pancakeswap/",
+    label: 'Github',
+    icon: 'AuditIcon',
+    href: 'https://github.com/pancakeswap/',
   },
-
 ]
 
 export default config
