@@ -2,6 +2,8 @@ import { MenuEntry } from '@pancakeswap-libs/uikit'
 import { MenuItem } from 'components/SearchModal/styleds'
 import { ExternalLink } from 'components/Shared'
 
+
+
 const config: MenuEntry[] = [
   {
     label: 'Home',
@@ -84,16 +86,17 @@ const config: MenuEntry[] = [
     icon: 'MoreIcon',
     items: [
       {
-        label: "Github",
-        href: "https://github.com/goosedefi/",
+        label: 'Github',
+        icon: 'twitterIcon',
+        href: 'https://github.com/goosedefi/',
       },
       {
-        label: "Twitter",
-        href: "https://goosedefi.gitbook.io/goose-finance/",
+        label: 'Twitter',
+        href: 'https://goosedefi.gitbook.io/goose-finance/',
       },
       {
-        label: "Telegram",
-        href: "https://goosefinance.medium.com/",
+        label: 'Telegram',
+        href: 'https://goosefinance.medium.com/',
       },
     ],
   },
