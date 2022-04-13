@@ -8,7 +8,24 @@ import useTheme from 'hooks/useTheme'
 import { injected, bsc, walletconnect } from 'connectors'
 import links from './config'
 
+import styled from 'styled-components'
 import TwitterIcon from '../../assets/images/twitterIcon.svg'
+
+const IconWrapper = styled.div<{ size?: number }>`
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+  & > img,
+  span {
+    height: ${({ size }) => (size ? `${size}px` : '32px')};
+    width: ${({ size }) => (size ? `${size}px` : '32px')};
+  }
+  ${({ theme }) => theme.mediaQueries.lg} {
+    align-items: flex-end;
+  }
+`
 
 
 const Menu: React.FC = props => {
