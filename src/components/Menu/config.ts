@@ -1,6 +1,7 @@
 import { MenuEntry } from '@pancakeswap-libs/uikit'
 import { MenuItem } from 'components/SearchModal/styleds'
 import { ExternalLink } from 'components/Shared'
+import 'assets/images/twitterIcon'
 
 
 
