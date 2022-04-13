@@ -8,6 +8,9 @@ import useTheme from 'hooks/useTheme'
 import { injected, bsc, walletconnect } from 'connectors'
 import links from './config'
 
+import TwitterIcon from '../../assets/images/twitterIcon.svg'
+
+
 const Menu: React.FC = props => {
   const { account, activate, deactivate } = useWeb3React()
   const { selectedLanguage, setSelectedLanguage } = useContext(LanguageContext)
@@ -15,6 +18,12 @@ const Menu: React.FC = props => {
   // const cakePriceUsd = useGetPriceData()
 
   return (
+
+    <IconWrapper size={16}>
+    <img src={TwitterIcon} alt="Twitter icon" />
+    </IconWrapper>
+    
+
     <UikitMenu
       // enlaces del menu principal
       links={links}
@@ -40,7 +49,7 @@ const Menu: React.FC = props => {
       currentLang={selectedLanguage?.code || ''}
       langs={allLanguages}
       setLang={setSelectedLanguage}
-      
+
       // cakePriceUsd={cakePriceUsd}
       {...props}
     />

@@ -1,8 +1,11 @@
 import { MenuEntry } from '@pancakeswap-libs/uikit'
 import { MenuItem } from 'components/SearchModal/styleds'
 import { ExternalLink } from 'components/Shared'
-import 'assets/images/twitterIcon.svg'
 
+// import CoinbaseWalletIcon from '../../assets/images/coinbaseWalletIcon.svg'
+
+import TwitterIcon from 'assets/images/twitterIcon.svg'
+<img src={TwitterIcon} alt="Twitter icon" />
 
 
 const config: MenuEntry[] = [
@@ -29,7 +32,7 @@ const config: MenuEntry[] = [
 
   {
     label: 'Airdrop',
-    icon: 'twitterIcon',
+    icon: 'TwitterIcon',
     // icon: 'Won',
     href: 'https://www.skullswap.cf/airdrop.html'
     // type: DropdownMenuItemType.EXTERNAL_LINK
