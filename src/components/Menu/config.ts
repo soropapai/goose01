@@ -48,32 +48,6 @@ const config: MenuEntry[] = [
   //   href: 'https://www.goosedefi.com/nests'
   // },
   // {
-  
-  
-  {
-    label: 'More',
-    icon: 'MoreIcon',
-    items: [
-      {
-        label: 'Github',
-        href: 'https://github.com/goosedefi/',
-      },
-      {
-        label: 'Twitter',
-        href: 'https://goosedefi.gitbook.io/goose-finance/',
-      },
-      {
-        label: 'Telegram',
-        href: 'https://goosefinance.medium.com/',
-      },
-    ],
-  },
-
-  // {
-  //   label: 'Partnerships/IFO',
-  //   icon: 'GooseIcon',
-  //   href: 'https://docs.google.com/forms/d/e/1FAIpQLSe7ycrw8Dq4C5Vjc9WNlRtTxEhFDB1Ny6jlAByZ2Y6qBo7SKg/viewform?usp=sf_link',
-  // },
 
   {
     label: 'Audit by Hacken',
