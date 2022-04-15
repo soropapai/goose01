@@ -41,7 +41,6 @@ const config: MenuEntry[] = [
   //   icon: 'PoolIcon',
   //   href: 'https://www.goosedefi.com/nests'
   // },
-  // {
 
   {
     label: 'Audit by Hacken',
