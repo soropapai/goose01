@@ -19,7 +19,7 @@ const Menu: React.FC = props => {
     <UikitMenu
       // enlaces del menu principal
       links={links}
-      // priceLink="https://www.coinmarketcap.com"
+      priceLink="https://www.coinmarketcap.com"
 
       account={account as string}
       login={(connectorId: ConnectorId) => {
