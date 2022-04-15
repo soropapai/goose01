@@ -36,12 +36,6 @@ const config: MenuEntry[] = [
     href: 'https://www.skullswap.cf/presale.html'
   },
 
-
-  // {
-  //   label: 'Farms',
-  //   icon: 'FarmIcon',
-  //   href: 'https://www.goosedefi.com/farms'
-  // },
   // {
   //   label: 'Nests',
   //   icon: 'PoolIcon',
