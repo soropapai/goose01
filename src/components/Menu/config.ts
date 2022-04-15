@@ -35,6 +35,7 @@ const config: MenuEntry[] = [
     icon: 'TicketIcon',
     href: 'https://www.skullswap.cf/presale.html'
   },
+  
 
   // {
   //   label: 'Nests',
